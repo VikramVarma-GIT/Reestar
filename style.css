@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     font-family: "Jost", sans-serif;
+}
+
+/* ______________________________________________ */
+
+.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.navbar-desc{
+    display: inline-block;
+    color: gray;
+}
+
+/* Container */
+
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box1{
+    display: inline-block;
+    width: 250px;
+    border: solid 1px black;
+    vertical-align: top;
+    height: 430px;
+}
+
+.box1 img{
+    width: 200px;
+}
+
+.box1__desc{
+    margin-bottom: 20px;
+}
+
+.order{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 50px;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* Center the form */
+form {
+  display: inline-block;     /* shrink to fit and center */
+  text-align: left;          /* keeps labels aligned left */
+  margin-top: 20px;
+}
+
+/* Send Button */
+.send-btn {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: yellow;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background: #f3d200;
+}
+
+
